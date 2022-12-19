@@ -16,3 +16,13 @@ fals = false // typeof false >> "boolean"
 Nesse sentido, qualquer código válido em JavaScript, é válido também em TypeScript. O inverso, porém, é falso, pois o código TypeScript deve ser compilado e transpilado para JavaScript. Ou seja, no final das contas, o browser e os outros motores feitos para rodar JavaScript, têm que apenas rodar JavaScript.
 
 Por essas características, TypeScript se torna interessante para o backend.
+
+## Fontes
+- [TypeScript: JavaScript With Syntax For Types](https://www.typescriptlang.org/)
+- [W3Schools](https://duckduckgo.com);
+- [Wikipédia](https://pt.wikipedia.org/wiki/TypeScript).
+
+## Integrantes
+- [Alanis Isabelle de Oliveira Silva](https://github.com/allanisPixel);
+- [Hilquias Abias Figueiredo Silva](https://github.com/HilquiasAbias);
+- [Luan da Costa Redmann](https://github.com/cannudo).
