@@ -18,7 +18,7 @@ Nesse sentido, qualquer código válido em JavaScript, é válido também em Typ
 Por essas características, TypeScript se torna interessante para o backend.
 
 ## Fontes
-- [TypeScript: JavaScript With Syntax For Types](https://www.typescriptlang.org/)
+- [TypeScript: JavaScript With Syntax For Types](https://www.typescriptlang.org/);
 - [W3Schools](https://duckduckgo.com);
 - [Wikipédia](https://pt.wikipedia.org/wiki/TypeScript).
 
