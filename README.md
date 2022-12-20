@@ -29,6 +29,9 @@ Por essas características, TypeScript se torna interessante para o backend.
 - [W3Schools](https://duckduckgo.com);
 - [Wikipédia](https://pt.wikipedia.org/wiki/TypeScript).
 
+##  Slides
+- [Google Apresentações](https://docs.google.com/presentation/d/1SLd3gfY79CPHQivekRXGIF9NUGDHNtXVbBZ0c2tVqgE/edit?usp=sharing)
+
 ## Integrantes
 - [Alanis Isabelle de Oliveira Silva](https://github.com/allanisPixel);
 - [Hilquias Abias Figueiredo Silva](https://github.com/HilquiasAbias);
