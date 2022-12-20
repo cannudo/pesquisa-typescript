@@ -31,8 +31,36 @@ Não deveria mesmo. Mas o JavaScript ampliou seu terreno e foi para o backend. D
 
 > Qualquer código válido em JavaScript, é válido também em TypeScript. O inverso, porém, é falso, pois o código TypeScript deve ser compilado e transpilado para JavaScript. Ou seja, no final das contas, o browser e os outros motores feitos para rodar JavaScript, têm que apenas rodar JavaScript.
 
-#### Conclusão:
+#### Conclusão
 Nesse sentido, qualquer código válido em JavaScript, é válido também em TypeScript. O inverso, porém, é falso, pois o código TypeScript deve ser compilado e transpilado para JavaScript. Ou seja, no final das contas, o browser e os outros motores feitos para rodar JavaScript, têm que apenas rodar JavaScript.
+
+## “Hello, World!” em TypeScript
+
+Para rodar o TypeScript, um projeto TypeScript deve ser criado:
+
+```sh
+$ npm install typescript --save-dev
+```
+
+Para fins de exemplo, criaremos um arquivo chamado `helloworld.ts`:
+
+```ts
+let msg: string = "Hello, World!"
+console.log(msg)
+```
+
+E o compilaremos (transpilaremos para JavaScript):
+
+```sh
+$ npx tsc helloworld.ts
+```
+
+Finalmente, poderemos rodar o arqquivo que o `tsc` gerou:
+
+```sh
+$ node helloworld.js
+    >> Hello, World!
+```
 
 ## Fontes
 - [TypeScript: JavaScript With Syntax For Types](https://www.typescriptlang.org/);
