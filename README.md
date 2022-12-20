@@ -40,9 +40,10 @@ Nesse sentido, qualquer código válido em JavaScript, é válido também em Typ
 - [Wikipédia](https://pt.wikipedia.org/wiki/TypeScript).
 
 ##  Slides
-- [Google Apresentações](https://docs.google.com/presentation/d/1SLd3gfY79CPHQivekRXGIF9NUGDHNtXVbBZ0c2tVqgE/edit?usp=sharing)
+- [Google Apresentações](https://docs.google.com/presentation/d/1SLd3gfY79CPHQivekRXGIF9NUGDHNtXVbBZ0c2tVqgE/edit?usp=sharing) (acesso exclusivo aos alunos do IFRN)
 
 ## Integrantes
 - [Alanis Isabelle de Oliveira Silva](https://github.com/allanisPixel);
 - [Hilquias Abias Figueiredo Silva](https://github.com/HilquiasAbias);
-- [Luan da Costa Redmann](https://github.com/cannudo).
+- [Luan da Costa Redmann](https://github.com/cannudo);
+- [Marcos Vinicius Góes Fernandes](https://github.com/MarVin17G).
