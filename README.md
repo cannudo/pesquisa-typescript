@@ -2,20 +2,25 @@
 
 > resumo dos resultados obtidos, para posterior apresentação na aula de Interfaces Ricas
 
-## TypeScript: JavaScript com tipos
+<h2>(<del>Java</del>)TypeScript: JavaScript com tipos</h2>
 Segundo a W3Schools — site educacional voltado ao ensino de tecnologias web —, TypeScript é JavaScript com sintaxe para tipos estáticos adicionada. É um dos resultados do suposto amor da Microsoft pelo “open source”.
 
 Enquanto o JavaScript puro tem tipagem dinâmica — os tipos das variáveis podem mudar em tempo de execução — e fraca — a conversão de dados pode ficar a cargo do interpretador —, TypeScript inverte os estilos e lança exceções quando essas regras são quebradas.
 
+É dito que o TypeScript é um superconjunto de JavaScript. Significa dizer que TypeScript compartilha da mesma base para sua sintaxe, mas adiciona algo a ela: o suporte a tipagem estática.
+
+
 ### Análise de código: javascript convertendo tipos
 ```js
-let fals = 0 // typeof false >> "number"
-fals = false // typeof false >> "boolean"
+let fals = 0 // typeof fals >> "number"
+fals = false // typeof fals >> "boolean"
 ```
 
 JavaScript não gera exceção por mudança de tipagem durante o tempo de execução.
 
 > Este não deveria ser um ponto de interesse em uma linguagem que funciona só pra mudar a cor da página.
+
+Não deveria mesmo. Mas o JavaScript ampliou seu terreno e foi para o backend. Dessa forma, TypeScript pode ser bastante útil no backend.
 
 **JavaScript tá agora no back também!!!**
 __Fizeram de tudo pra que isso fosse realidade__
