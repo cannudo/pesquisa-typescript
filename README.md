@@ -20,14 +20,9 @@ JavaScript não gera exceção por mudança de tipagem durante o tempo de execu�
 
 > Este não deveria ser um ponto de interesse em uma linguagem que funciona só pra mudar a cor da página.
 
-Não deveria mesmo. Mas o JavaScript ampliou seu terreno e foi para o backend. Dessa forma, TypeScript pode ser bastante útil no backend.
+Não deveria mesmo. Mas o JavaScript ampliou seu terreno e foi para o backend. Dessa forma, TypeScript pode ser bastante útil no backend — uma vez que fornece segurança reforçada contra erros de pensamento do desenvolvedor.
 
-**JavaScript tá agora no back também!!!**
-__Fizeram de tudo pra que isso fosse realidade__
-
-Nesse sentido, qualquer código válido em JavaScript, é válido também em TypeScript. O inverso, porém, é falso, pois o código TypeScript deve ser compilado e transpilado para JavaScript. Ou seja, no final das contas, o browser e os outros motores feitos para rodar JavaScript, têm que apenas rodar JavaScript.
-
-Por essas características, TypeScript se torna interessante para o backend.
+ > Qualquer código válido em JavaScript, é válido também em TypeScript. O inverso, porém, é falso, pois o código TypeScript deve ser compilado e transpilado para JavaScript. Ou seja, no final das contas, o browser e os outros motores feitos para rodar JavaScript, têm que apenas rodar JavaScript.
 
 ## Fontes
 - [TypeScript: JavaScript With Syntax For Types](https://www.typescriptlang.org/);
