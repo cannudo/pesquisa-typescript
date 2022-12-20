@@ -18,16 +18,18 @@ fals = false // typeof fals >> "boolean"
 
 JavaScript não gera exceção por mudança de tipagem durante o tempo de execução.
 
-> Este não deveria ser um ponto de interesse em uma linguagem que funciona só pra mudar a cor da página.
-
-Não deveria mesmo. Mas o JavaScript ampliou seu terreno e foi para o backend. Dessa forma, TypeScript pode ser bastante útil no backend.
-
 ### Análise de código: typescript dando erro de compilação
 
 ```ts
 let fals: number = 0 // typeof(fals) >> "number"
 fals = false // erro de compilação
 ```
+
+> Este não deveria ser um ponto de interesse em uma linguagem que funciona só pra mudar a cor da página.
+
+Não deveria mesmo. Mas o JavaScript ampliou seu terreno e foi para o backend. Dessa forma, TypeScript pode ser bastante útil no backend — uma vez que fornece segurança reforçada contra erros de pensamento do desenvolvedor.
+
+> Qualquer código válido em JavaScript, é válido também em TypeScript. O inverso, porém, é falso, pois o código TypeScript deve ser compilado e transpilado para JavaScript. Ou seja, no final das contas, o browser e os outros motores feitos para rodar JavaScript, têm que apenas rodar JavaScript.
 
 #### Conclusão:
 Nesse sentido, qualquer código válido em JavaScript, é válido também em TypeScript. O inverso, porém, é falso, pois o código TypeScript deve ser compilado e transpilado para JavaScript. Ou seja, no final das contas, o browser e os outros motores feitos para rodar JavaScript, têm que apenas rodar JavaScript.
