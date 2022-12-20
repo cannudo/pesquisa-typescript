@@ -29,12 +29,8 @@ let fals: number = 0 // typeof(fals) >> "number"
 fals = false // erro de compilação
 ```
 
-**JavaScript tá agora no back também!!!**
-__Fizeram de tudo pra que isso fosse realidade__
-
+#### Conclusão:
 Nesse sentido, qualquer código válido em JavaScript, é válido também em TypeScript. O inverso, porém, é falso, pois o código TypeScript deve ser compilado e transpilado para JavaScript. Ou seja, no final das contas, o browser e os outros motores feitos para rodar JavaScript, têm que apenas rodar JavaScript.
-
-Por essas características, TypeScript se torna interessante para o backend.
 
 ## Fontes
 - [TypeScript: JavaScript With Syntax For Types](https://www.typescriptlang.org/);
