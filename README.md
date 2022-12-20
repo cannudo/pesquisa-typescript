@@ -22,6 +22,13 @@ JavaScript não gera exceção por mudança de tipagem durante o tempo de execu�
 
 Não deveria mesmo. Mas o JavaScript ampliou seu terreno e foi para o backend. Dessa forma, TypeScript pode ser bastante útil no backend.
 
+### Análise de código: typescript dando erro de compilação
+
+```ts
+let fals: number = 0 // typeof(fals) >> "number"
+fals = false // erro de compilação
+```
+
 **JavaScript tá agora no back também!!!**
 __Fizeram de tudo pra que isso fosse realidade__
 
