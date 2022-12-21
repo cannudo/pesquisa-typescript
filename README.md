@@ -99,6 +99,7 @@ Saída:
 
 ##  Slides
 - [Google Apresentações](https://docs.google.com/presentation/d/1SLd3gfY79CPHQivekRXGIF9NUGDHNtXVbBZ0c2tVqgE/edit?usp=sharing) (acesso exclusivo aos alunos do IFRN)
+- [Instalando TS localmente em um projeto Node](https://docs.google.com/presentation/d/1eU608ehedxkQEOMkPzwViGISCSXLGSDMOGDxjQpWFrw/edit?usp=sharing) (acesso exclusivo aos alunos do IFRN)
 
 ## Integrantes
 - [Alanis Isabelle de Oliveira Silva](https://github.com/allanisPixel);
