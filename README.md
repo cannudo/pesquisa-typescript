@@ -31,8 +31,66 @@ Não deveria mesmo. Mas o JavaScript ampliou seu terreno e foi para o backend. D
 
 > Qualquer código válido em JavaScript, é válido também em TypeScript. O inverso, porém, é falso, pois o código TypeScript deve ser compilado e transpilado para JavaScript. Ou seja, no final das contas, o browser e os outros motores feitos para rodar JavaScript, têm que apenas rodar JavaScript.
 
-#### Conclusão:
+#### Conclusão
 Nesse sentido, qualquer código válido em JavaScript, é válido também em TypeScript. O inverso, porém, é falso, pois o código TypeScript deve ser compilado e transpilado para JavaScript. Ou seja, no final das contas, o browser e os outros motores feitos para rodar JavaScript, têm que apenas rodar JavaScript.
+
+## “Hello, World!” em TypeScript
+
+Para rodar o TypeScript, um projeto node deve ser criado:
+
+```bash
+$ npm init
+```
+
+> Após a execução do comando acima, um arquivo `package.json` é gerado
+
+Então, instale o pacote `typescript` com o NPM:
+
+```bash
+$ npm install typescript --save-dev
+```
+
+> O comando acima instalará o compilador `tsc` e registrará a dependência no `package.json`
+
+Rode o seguinte comando para criar um arquivo `tsconfig.json`:
+
+```bash
+$ npx tsc --init
+```
+
+> O arquivo `tsconfig.json` indica que o projeto NPM usa TypeScript
+
+Executados os comandos anteriores, você já deve ser capaz de escrever em TypeScript e compilar arquivos com a extensão `.ts`.
+Para tanto, basta criar um arquivo `.ts` na raiz do projeto.
+
+Para fins de exemplo, criaremos um arquivo chamado `helloworld.ts`:
+
+```bash
+$ touch helloworld.js
+```
+
+E adicionaremos o seguinte código TypeScript nele:
+
+```ts
+let msg: string = "Hello, World!"
+console.log(msg)
+```
+
+E o compilaremos (transpilaremos para JavaScript):
+
+```bash
+$ npx tsc helloworld.ts
+```
+
+Finalmente, poderemos rodar o arquivo que o `tsc` gerou, usando o node:
+
+```sh
+$ node helloworld.js
+Hello, World!
+```
+Saída:
+
+> Hello, World!
 
 ## Fontes
 - [TypeScript: JavaScript With Syntax For Types](https://www.typescriptlang.org/);
