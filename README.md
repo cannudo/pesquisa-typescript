@@ -36,13 +36,40 @@ Nesse sentido, qualquer código válido em JavaScript, é válido também em Typ
 
 ## “Hello, World!” em TypeScript
 
-Para rodar o TypeScript, um projeto TypeScript deve ser criado:
+Para rodar o TypeScript, um projeto node deve ser criado:
 
-```sh
+```bash
+$ npm init
+```
+
+> Após a execução do comando acima, um arquivo `package.json` é gerado
+
+Então, instale o pacote `typescript` com o NPM:
+
+```bash
 $ npm install typescript --save-dev
 ```
 
+> O comando acima instalará o compilador `tsc` e registrará a dependência no `package.json`
+
+Rode o seguinte comando para criar um arquivo `tsconfig.json`:
+
+```bash
+$ npx tsc --init
+```
+
+> O arquivo `tsconfig.json` indica que o projeto NPM usa TypeScript
+
+Executados os comandos anteriores, você já deve ser capaz de escrever em TypeScript e compilar arquivos com a extensão `.ts`.
+Para tanto, basta criar um arquivo `.ts` na raiz do projeto.
+
 Para fins de exemplo, criaremos um arquivo chamado `helloworld.ts`:
+
+```bash
+$ touch helloworld.js
+```
+
+E adicionaremos o seguinte código TypeScript nele:
 
 ```ts
 let msg: string = "Hello, World!"
@@ -51,15 +78,15 @@ console.log(msg)
 
 E o compilaremos (transpilaremos para JavaScript):
 
-```sh
+```bash
 $ npx tsc helloworld.ts
 ```
 
-Finalmente, poderemos rodar o arqquivo que o `tsc` gerou:
+Finalmente, poderemos rodar o arquivo que o `tsc` gerou, usando o node:
 
 ```sh
 $ node helloworld.js
-    >> Hello, World!
+__Hello, World!__
 ```
 
 ## Fontes
