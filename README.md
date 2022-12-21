@@ -86,7 +86,7 @@ Finalmente, poderemos rodar o arquivo que o `tsc` gerou, usando o node:
 
 ```sh
 $ node helloworld.js
-__Hello, World!__
+<i>Hello, World!</i>
 ```
 
 ## Fontes
