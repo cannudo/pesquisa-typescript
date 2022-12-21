@@ -86,8 +86,11 @@ Finalmente, poderemos rodar o arquivo que o `tsc` gerou, usando o node:
 
 ```sh
 $ node helloworld.js
-<i>Hello, World!</i>
+Hello, World!
 ```
+Saída:
+
+> Hello, World!
 
 ## Fontes
 - [TypeScript: JavaScript With Syntax For Types](https://www.typescriptlang.org/);
