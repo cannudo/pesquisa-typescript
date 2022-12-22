@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(210, 231, 204, 0.829);
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 15px;
+}
+
+.find-form {
+    margin-left: 27%;
+    margin-top: 15px;
+    align-self: flex-start;
+}
+
+.find-form label {
+    font-weight: bold;
+}
+
+.find-form input {
+    width: 300px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(189, 209, 183);
+    box-shadow: 2px 1px 1px rgba(3, 5, 3, .3);
+    cursor: pointer;
+}
+
+
+.posts {
+    margin: 40px auto;
+    width: 800px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    width: 700px;
+    height: 150px;
+    background: rgb(250, 240, 240);
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(189, 209, 183);
+    box-shadow: 2px 1px 1px rgba(3, 5, 3, .3);
+}
+
+.post .title {
+    margin: 5px 0px 10px 10px;
+    text-align: left;
+}
+
+.post .description {
+    margin: 5px 0px 10px 10px;
+    text-align: center;
+}
+
+.post .id {
+    margin: 5px 0px 0px 10px;
+    font-size: 2em;
+}
+
+.flag {
+    font-size: 2em;
+    color: brown;
+}
