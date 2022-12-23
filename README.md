@@ -2,6 +2,13 @@
 
 > resumo dos resultados obtidos, para posterior apresentação na aula de Interfaces Ricas
 
+## Assets
+
+O repositório têm dois projetos node embutidos na pasta [/src](/src):
+
+1. Na raiz, há o projeto gerado nos exemplos do Hello World (adiante);
+1. Na pasta [/src/consumindo_api](), há o projeto que consome a API do [json placeholder](https://jsonplaceholder.typicode.com/).
+
 <h2>(<del>Java</del>)TypeScript: JavaScript com tipos</h2>
 Segundo a W3Schools — site educacional voltado ao ensino de tecnologias web —, TypeScript é JavaScript com sintaxe para tipos estáticos adicionada. É um dos resultados do suposto amor da Microsoft pelo “open source”.
 
