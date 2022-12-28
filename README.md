@@ -4,10 +4,12 @@
 
 ## Assets
 
-O repositório têm dois projetos node embutidos na pasta [src](src/):
+O repositório têm dois projetos node embutidos na pasta [src/](src/):
 
 1. Na raiz, há o projeto gerado nos exemplos do Hello World (adiante);
 1. Na pasta [src/consumindo_api/](src/consumindo_api/), há o projeto que consome a API do [json placeholder](https://jsonplaceholder.typicode.com/).
+
+## Pesquisa
 
 <h2>(<del>Java</del>)TypeScript: JavaScript com tipos</h2>
 Segundo a W3Schools — site educacional voltado ao ensino de tecnologias web —, TypeScript é JavaScript com sintaxe para tipos estáticos adicionada. É um dos resultados do suposto amor da Microsoft pelo “open source”.
@@ -34,18 +36,15 @@ fals = false // erro de compilação
 
 > Este não deveria ser um ponto de interesse em uma linguagem que funciona só pra mudar a cor da página.
 
-Não deveria mesmo. Mas o JavaScript ampliou seu terreno e foi para o backend. Dessa forma, TypeScript pode ser bastante útil no backend — uma vez que fornece segurança reforçada contra erros de pensamento do desenvolvedor.
+Não deveria mesmo. Mas o JavaScript ampliou seu terreno e foi para o backend. Talvez TypeScript possa ser bastante útil no backend — uma vez que fornece segurança reforçada contra erros de pensamento do desenvolvedor.
 
 > Qualquer código válido em JavaScript, é válido também em TypeScript. O inverso, porém, é falso, pois o código TypeScript deve ser compilado e transpilado para JavaScript. Ou seja, no final das contas, o browser e os outros motores feitos para rodar JavaScript, têm que apenas rodar JavaScript.
-
-#### Conclusão
-Nesse sentido, qualquer código válido em JavaScript, é válido também em TypeScript. O inverso, porém, é falso, pois o código TypeScript deve ser compilado e transpilado para JavaScript. Ou seja, no final das contas, o browser e os outros motores feitos para rodar JavaScript, têm que apenas rodar JavaScript.
 
 ## “Hello, World!” em TypeScript
 
 Para rodar o TypeScript, um projeto node deve ser criado:
 
-```bash
+```console
 $ npm init
 ```
 
@@ -53,7 +52,7 @@ $ npm init
 
 Então, instale o pacote `typescript` com o NPM:
 
-```bash
+```console
 $ npm install typescript --save-dev
 ```
 
@@ -61,7 +60,7 @@ $ npm install typescript --save-dev
 
 Rode o seguinte comando para criar um arquivo `tsconfig.json`:
 
-```bash
+```console
 $ npx tsc --init
 ```
 
@@ -72,8 +71,8 @@ Para tanto, basta criar um arquivo `.ts` na raiz do projeto.
 
 Para fins de exemplo, criaremos um arquivo chamado `helloworld.ts`:
 
-```bash
-$ touch helloworld.js
+```console
+$ touch helloworld.ts
 ```
 
 E adicionaremos o seguinte código TypeScript nele:
@@ -83,17 +82,16 @@ let msg: string = "Hello, World!"
 console.log(msg)
 ```
 
-E o compilaremos (transpilaremos para JavaScript):
+Então, compilaremos:
 
-```bash
+```console
 $ npx tsc helloworld.ts
 ```
 
 Finalmente, poderemos rodar o arquivo que o `tsc` gerou, usando o node:
 
-```sh
+```console
 $ node helloworld.js
-Hello, World!
 ```
 Saída:
 
