@@ -23,6 +23,7 @@ O repositório têm dois projetos node embutidos na pasta [src/](src/):
 # Pesquisa
 
 <h2>(<del>Java</del>)TypeScript: JavaScript com tipos</h2>
+
 Segundo a W3Schools, site educacional voltado ao ensino de tecnologias web, TypeScript é JavaScript com sintaxe para tipos estáticos adicionada, sendo chamada de “superconjunto” de JavaScript. É um dos resultados do suposto amor da Microsoft pelo “open source”.
 
 Enquanto JavaScript tem tipagem dinâmica e fraca — os tipos das variáveis podem mudar em tempo de execução e a conversão dos tipos dos dados pode ficar a cargo do interpretador —, TypeScript define regras para que o desenvolvedor não consiga atribuir um valor de tipo `x` a uma variável de tipo `y`. Isso diminui a margem para erros de lógica ou falta de atenção dos desenvolvedores.
