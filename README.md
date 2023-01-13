@@ -2,6 +2,8 @@
 
 > resumo dos resultados obtidos nas pesquisas sobre TypeScript, realizadas para um seminário da aula de Interfaces Ricas
 
+O projeto serve como um passo inicial para entender conceitos básicos da linguagem TypeScript.
+
 ## Assets
 
 O repositório têm dois projetos node embutidos na pasta [src/](src/):
