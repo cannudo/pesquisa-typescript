@@ -1,6 +1,6 @@
 # pesquisa-typescript — Pesquisa sobre TypeScript
 
-> resumo dos resultados obtidos, para posterior apresentação na aula de Interfaces Ricas
+> resumo dos resultados obtidos nas pesquisas sobre TypeScript, realizadas para um seminário da aula de Interfaces Ricas
 
 ## Assets
 
