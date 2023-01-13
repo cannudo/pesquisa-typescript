@@ -20,15 +20,18 @@ O repositório têm dois projetos node embutidos na pasta [src/](src/):
 1. Na raiz, há o projeto gerado nos exemplos do Hello World (adiante);
 1. Na pasta [src/consumindo_api/](src/consumindo_api/), há o projeto que consome a API do [json placeholder](https://jsonplaceholder.typicode.com/).
 
-## Pesquisa
+# Pesquisa
 
 <h2>(<del>Java</del>)TypeScript: JavaScript com tipos</h2>
 Segundo a W3Schools, site educacional voltado ao ensino de tecnologias web, TypeScript é JavaScript com sintaxe para tipos estáticos adicionada, sendo chamada de “superconjunto” de JavaScript. É um dos resultados do suposto amor da Microsoft pelo “open source”.
 
-Enquanto JavaScript tem tipagem dinâmica e fraca — os tipos das variáveis podem mudar em tempo de execução e a conversão de dados pode ficar a cargo do interpretador —, TypeScript define regras para que o desenvolvedor não consiga atribuir um valor de tipo `x` a uma variável de tipo `y`. Isso diminui a margem para erros de lógica ou falta de atenção dos desenvolvedores.
+Enquanto JavaScript tem tipagem dinâmica e fraca — os tipos das variáveis podem mudar em tempo de execução e a conversão dos tipos dos dados pode ficar a cargo do interpretador —, TypeScript define regras para que o desenvolvedor não consiga atribuir um valor de tipo `x` a uma variável de tipo `y`. Isso diminui a margem para erros de lógica ou falta de atenção dos desenvolvedores.
 
 A afirmação que trata TypeScript como um superconjunto de JavaScript significa que TypeScript compartilha da mesma base de JavaScript para sua sintaxe, mas adiciona algo a ela: o suporte a tipagem estática.
 
+Outra característica que diferencia as duas linguagens é que TypeScript é compilada. Significa dizer que há um programa que gera um arquivo executável. Esse programa recebe um arquivo com a extensão `.ts` e devolve um arquivo com extensão `.js` no caso de sucesso.
+
+> Os insucessos do processo de compilação podem vir, principalmente, da atribuição de um valor de um tipo diferente ao do que determinada variável foi configurada para receber. Nesse caso, o programa de compilação retorna erro e algumas IDEs, com as extensões certas, alertam sobre este erro antes mesmo da tentativa de compilação. 
 
 ### Análise de código: javascript convertendo tipos
 ```js
