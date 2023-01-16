@@ -32,7 +32,7 @@ A afirmação que trata TypeScript como um superconjunto de JavaScript significa
 
 Outra característica que diferencia as duas linguagens é que TypeScript é compilada. Significa dizer que há um programa que gera um arquivo executável. Esse programa recebe um arquivo com a extensão `.ts` e devolve um arquivo com extensão `.js` no caso de sucesso.
 
-> Os insucessos do processo de compilação podem vir, principalmente, da atribuição de um valor de um tipo diferente ao do que determinada variável foi configurada para receber. Nesse caso, o programa de compilação retorna erro e algumas IDEs, com as extensões certas, alertam sobre este erro antes mesmo da tentativa de compilação. 
+> Os insucessos do processo de compilação podem vir, principalmente, da atribuição de um valor de um tipo diferente ao do que determinada variável foi configurada para receber. Nesse caso, o programa de compilação retorna erro e algumas IDEs, com as extensões certas, alertam sobre este erro antes mesmo da tentativa de compilação.
 
 ### Análise de código: javascript convertendo tipos
 ```js
@@ -53,7 +53,9 @@ fals = false // erro de compilação
 
 Não deveria mesmo. Mas o JavaScript ampliou seu terreno e foi para o backend. Talvez TypeScript possa ser bastante útil no backend — uma vez que fornece segurança reforçada contra erros de pensamento do desenvolvedor.
 
-> Qualquer código válido em JavaScript, é válido também em TypeScript. O inverso, porém, é falso, pois o código TypeScript deve ser compilado e transpilado para JavaScript. Ou seja, no final das contas, o browser e os outros motores feitos para rodar JavaScript, têm que apenas rodar JavaScript.
+## Curiosidade
+
+Os motores JavaScript não reconhecem código TypeScript. Ou seja, se o desenvolvedor tentar rodar TypeScript diretamente no Node, por exemplo, ou no console do navegador, vai receber erros. Isso porque os códigos TypeScript devem ser compilados antes da execução. No final das contas, o que o motor vai rodar será código JavaScript.
 
 ## “Hello, World!” em TypeScript
 
@@ -68,15 +70,15 @@ $ npm init
 Então, instale o pacote `typescript` com o NPM:
 
 ```console
-$ npm install typescript --save-dev
+cannudo@local:~$ npm install typescript --save-dev
 ```
 
-> O comando acima instalará o compilador `tsc` e registrará a dependência no `package.json`
+> O comando acima instala o compilador `tsc` e registra sua dependência no arquivo `package.json`
 
 Rode o seguinte comando para criar um arquivo `tsconfig.json`:
 
 ```console
-$ npx tsc --init
+cannudo@local:~$ npx tsc --init
 ```
 
 > O arquivo `tsconfig.json` indica que o projeto NPM usa TypeScript
@@ -87,7 +89,7 @@ Para tanto, basta criar um arquivo `.ts` na raiz do projeto.
 Para fins de exemplo, criaremos um arquivo chamado `helloworld.ts`:
 
 ```console
-$ touch helloworld.ts
+cannudo@local:~$ touch helloworld.ts
 ```
 
 E adicionaremos o seguinte código TypeScript nele:
@@ -100,20 +102,25 @@ console.log(msg)
 Então, compilaremos:
 
 ```console
-$ npx tsc helloworld.ts
+cannudo@local:~$ npx tsc helloworld.ts
 ```
 
 Finalmente, poderemos rodar o arquivo que o `tsc` gerou, usando o node:
 
 ```console
-$ node helloworld.js
+cannudo@local:~$ node helloworld.js
 ```
+
 Saída:
 
 > Hello, World!
 
+## Mais informações
+
+Para descobrir mais sobre TypeScript, aprender sobre tipos e como usar a linguagem em um projeto, visite o site [https://www.typescriptlang.org/](https://www.typescriptlang.org/).
+
 ## Fontes
-- [TypeScript: JavaScript With Syntax For Types](https://www.typescriptlang.org/);
+- [TypeScript official site](https://www.typescriptlang.org/);
 - [W3Schools](https://duckduckgo.com);
 - [Wikipédia](https://pt.wikipedia.org/wiki/TypeScript).
 
