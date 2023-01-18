@@ -62,7 +62,7 @@ Os motores JavaScript não reconhecem código TypeScript. Ou seja, se o desenvol
 Para rodar o TypeScript, um projeto node deve ser criado:
 
 ```console
-$ npm init
+cannudo@local:~$ npm init
 ```
 
 > Após a execução do comando acima, um arquivo `package.json` é gerado
